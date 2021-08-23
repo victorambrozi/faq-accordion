@@ -1,0 +1,7 @@
+.faq-container::after {
+    content: '';
+    background-image: url('../assets/bg-pattern-mobile.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+}

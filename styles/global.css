@@ -1,0 +1,20 @@
+:root {
+    --bg-violet: #af67e9;
+    --bg-blue: #6565e7;
+    --text-dark-grayish-blue: #4a4b5e;
+    --text-grayish-blue: #787887;
+    --text-light-grayish-blue: #e7e7e9;
+    --text-hover-red: #f47c57;
+    --text-dark-desaturated-blue: #1d1e35;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FAVINCON -->
+    <link rel="shortcut icon" href="/assets/favicon-32x32.png" type="image/x-icon">
+
+    <title>FAQ - Accordion</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="faq-container">
+            <img src="./assets/illustration-woman-online-mobile.svg" alt="FAQ Ilustração">
+
+            <div class="faq-content">
+                <h2>Faq</h2>
+
+                <div class="faq-accordion">
+                    <h3>Qual a diferença entre window.onload e onDocumentReady?</h3>
+
+                    <p>O evento onload não dispara até que a última parte da página seja carregada, isto inclui CSS e
+                        imagens, o que significa mais tempo antes que o código seja executado.
+
+                        Em geral onload não é o recomendado. O ideal é esperar até que o DOM seja carregado para que
+                        possa ser manipulado e esse é o papel do onDocumentReady.</p>
+                </div>
+
+
+                <div class="faq-accordion">
+                    <h3>Qual a diferença entre = , == e === ?</h3>
+
+                    <p>O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica
+                        valor e tipo de variável.</p>
+                </div>
+
+
+                <div class="faq-accordion">
+                    <h3>Qual a diferença entre = , == e === ?</h3>
+
+                    <p>O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica
+                        valor e tipo de variável.</p>
+                </div>
+
+
+                <div class="faq-accordion">
+                    <h3>O que “1” + 2 + 4 retorna? E 5 + 4 + “3” ?</h3>
+
+                    <p>Como 1 é uma string, tudo é uma string, então o resultado é 124. No segundo caso, o resultado é
+                        93, 5 + 4 = 9 + string “3”.</p>
+                </div>
+
+
+                <div class="faq-accordion">
+                    <h3>Qual a diferença entre valor indefinido e nulo?</h3>
+
+                    <p>ndefinido significa que uma variável foi declarada, mas ainda não foi atribuído um valor.
+                        Enquanto nulo é um valor atribuído ou resultado de um erro que foi atribuído a uma variável.
+
+                        As variáveis não atribuídas são inicializadas pelo JavaScript com um valor padrão de indefinido.
+                        O JavaScript nunca define um valor como nulo. Isso deve ser feito programaticamente.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/scripts/scripts.js"></script>
+</body>
+
+</html>
