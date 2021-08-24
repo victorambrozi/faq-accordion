@@ -20,57 +20,64 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="faq-container">
+    <div class="faq-container">
+        <div class="faq-content">
             <img src="./assets/illustration-woman-online-mobile.svg" alt="FAQ Ilustração">
+            <h2>Faq</h2>
 
-            <div class="faq-content">
-                <h2>Faq</h2>
+            <div class="faq-accordion">
+                <h3>Qual a diferença entre window.onload e onDocumentReady?
+                    <img src="./assets/icon-arrow-down.svg" alt="Arrow down">
+                </h3>
 
-                <div class="faq-accordion">
-                    <h3>Qual a diferença entre window.onload e onDocumentReady?</h3>
+                <p>O evento onload não dispara até que a última parte da página seja carregada, isto inclui CSS e
+                    imagens, o que significa mais tempo antes que o código seja executado.
 
-                    <p>O evento onload não dispara até que a última parte da página seja carregada, isto inclui CSS e
-                        imagens, o que significa mais tempo antes que o código seja executado.
-
-                        Em geral onload não é o recomendado. O ideal é esperar até que o DOM seja carregado para que
-                        possa ser manipulado e esse é o papel do onDocumentReady.</p>
-                </div>
-
-
-                <div class="faq-accordion">
-                    <h3>Qual a diferença entre = , == e === ?</h3>
-
-                    <p>O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica
-                        valor e tipo de variável.</p>
-                </div>
+                    Em geral onload não é o recomendado. O ideal é esperar até que o DOM seja carregado para que
+                    possa ser manipulado e esse é o papel do onDocumentReady.</p>
+            </div>
 
 
-                <div class="faq-accordion">
-                    <h3>Qual a diferença entre = , == e === ?</h3>
+            <div class="faq-accordion">
+                <h3 class='active'>Qual a diferença entre = , == e === ?
+                    <img src="./assets/icon-arrow-down.svg" alt="Arrow down">
+                </h3>
 
-                    <p>O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica
-                        valor e tipo de variável.</p>
-                </div>
-
-
-                <div class="faq-accordion">
-                    <h3>O que “1” + 2 + 4 retorna? E 5 + 4 + “3” ?</h3>
-
-                    <p>Como 1 é uma string, tudo é uma string, então o resultado é 124. No segundo caso, o resultado é
-                        93, 5 + 4 = 9 + string “3”.</p>
-                </div>
+                <p>O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica
+                    valor e tipo de variável.</p>
+            </div>
 
 
-                <div class="faq-accordion">
-                    <h3>Qual a diferença entre valor indefinido e nulo?</h3>
+            <div class="faq-accordion">
+                <h3>Qual a diferença entre = , == e === ?
+                    <img src="./assets/icon-arrow-down.svg" alt="Arrow down">
+                </h3>
 
-                    <p>ndefinido significa que uma variável foi declarada, mas ainda não foi atribuído um valor.
-                        Enquanto nulo é um valor atribuído ou resultado de um erro que foi atribuído a uma variável.
+                <p>O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica
+                    valor e tipo de variável.</p>
+            </div>
 
-                        As variáveis não atribuídas são inicializadas pelo JavaScript com um valor padrão de indefinido.
-                        O JavaScript nunca define um valor como nulo. Isso deve ser feito programaticamente.</p>
-                </div>
+
+            <div class="faq-accordion">
+                <h3>O que “1” + 2 + 4 retorna? E 5 + 4 + “3” ?
+                    <img src="./assets/icon-arrow-down.svg" alt="Arrow down">
+                </h3>
+
+                <p>Como 1 é uma string, tudo é uma string, então o resultado é 124. No segundo caso, o resultado é
+                    93, 5 + 4 = 9 + string “3”.</p>
+            </div>
+
+
+            <div class="faq-accordion">
+                <h3>Qual a diferença entre valor indefinido e nulo?
+                    <img src="./assets/icon-arrow-down.svg" alt="Arrow down">
+                </h3>
+
+                <p>ndefinido significa que uma variável foi declarada, mas ainda não foi atribuído um valor.
+                    Enquanto nulo é um valor atribuído ou resultado de um erro que foi atribuído a uma variável.
+
+                    As variáveis não atribuídas são inicializadas pelo JavaScript com um valor padrão de indefinido.
+                    O JavaScript nunca define um valor como nulo. Isso deve ser feito programaticamente.</p>
             </div>
         </div>
     </div>
