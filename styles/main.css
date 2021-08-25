@@ -43,6 +43,7 @@
 }
 
 .faq-accordion h3 {
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,6 +51,7 @@
     color: var(--text-grayish-blue);
     font-size: 1.2rem;
     line-height: 1.5;
+    cursor: pointer;
 }
 
 .faq-accordion h3.active {
@@ -58,7 +60,6 @@
 
 .faq-accordion h3 > img {
     margin-left: 1rem;
-    cursor: pointer;
 
 }
 
@@ -71,4 +72,20 @@
     word-break: break-word;
 
     display: none;
+    animation:  show-up .3s forwards;
+}
+
+.faq-accordion p.active {
+    display: block;
+}
+
+@keyframes show-up {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }
